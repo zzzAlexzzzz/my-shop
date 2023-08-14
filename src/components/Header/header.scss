@@ -1,0 +1,39 @@
+.header {
+  background-color: black;
+  height: 100px;
+  text-align: center;
+
+  h1 {
+    color: rgb(247, 239, 228);
+    font-weight: 900;
+    font-size: 40px;
+    margin-right: 700px;
+    padding-top: 25px;
+  }
+}
+
+.header__cart {
+  float: right;
+  margin-right: 50px;
+  margin-top: -33px;
+}
+
+.button--cart {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 3px;
+  background: #dd8be3;
+  box-shadow: 0 -3px #dd8be3;
+  transition: 0.2s;
+}
+a.button7:hover {
+  background: #dd8be3;
+}
+
+.sort {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+}

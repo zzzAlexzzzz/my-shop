@@ -1,0 +1,29 @@
+.category {
+  ul {
+    justify-content: center;
+    display: flex;
+
+    li {
+      border: 3px solid #5a0061;
+      background-color: rgb(0, 0, 0);
+      margin-top: 10px;
+      padding: 13px 30px;
+      border-radius: 10px;
+      margin-right: 10px;
+      font-weight: bold;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #dd8be3;
+      }
+
+      &:active {
+        background-color: #dd8be3;
+      }
+
+      &:active {
+        background-color: rgb(165, 19, 133);
+      }
+    }
+  }
+}
