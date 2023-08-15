@@ -24,6 +24,7 @@ function Categories() {
           <ul>
             {category.map((value, i) => (
               <li
+                key={i}
                 onClick={() => onClickCategory()}
                 className={gameCategory === i ? "active" : " "}
               >

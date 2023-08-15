@@ -8,7 +8,7 @@ function Content() {
     <div className="content">
       <div className="container">
         {Games.map((obj) => (
-          <GameCard {...obj} />
+          <GameCard key={obj.id} {...obj} />
         ))}
       </div>
     </div>

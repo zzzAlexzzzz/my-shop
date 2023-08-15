@@ -1,0 +1,21 @@
+.sort {
+  user-select: none;
+  position: absolute;
+  top: 25px;
+  right: 200px;
+  cursor: pointer;
+  border: 3px solid #5a0061;
+  background-color: rgb(2, 2, 2);
+  border-radius: 10px;
+  padding: 13px 30px;
+  overflow: hidden;
+
+  span {
+    color: crimson;
+    .sort__popup {
+      border: 3px solid red;
+      background-color: aliceblue;
+      border-radius: 20px;
+    }
+  }
+}
